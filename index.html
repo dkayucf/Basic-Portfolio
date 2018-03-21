@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Darren's Portfolio</title>
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   </head>
-  <body>
-     <div class="bodyContainer">
-        <nav>
-           <div class="navbar-row">
-                <div class="navbar-container">
-                    <div class="navbarLog" id="topNavLogo">
-                        <h1>Darren Kay</h1>
-                    </div>  
-                    <div class="topNavBar" id="myTopNav">
-                       <ul class="navBarList">
-                           <li class="navbar-item"><a href="index.html" class="navbar-link">About</a></li>
-                           <li class="navbar-item"><a href="portfolio.html" class="navbar-link">Portfolio</a></li>
-                           <li class="navbar-item"><a href="contact.html" class="navbar-link">Contact</a></li>
-                       </ul>
-                    </div>
-                </div> 
-           </div>
+    <body>
+       <article>
+            <nav class="navbar-row">
+            <div class="navbar-container">
+                <div class="navbarLog" id="topNavLogo">
+                    <a href="index.html"><h1>Darren Kay</h1></a>
+                </div>
+                <div class="topNavBar" id="myTopNav">
+                   <ul class="navBarList">
+                       <li class="navbar-item"><a href="index.html" class="navbar-link">About</a></li>
+                       <li class="navbar-item"><a href="portfolio.html" class="navbar-link">Portfolio</a></li>
+                       <li class="navbar-item"><a href="contact.html" class="navbar-link">Contact</a></li>
+                   </ul>
+                </div>
+            </div>
         </nav>
+    <div class="bodyContainer">
         <main class="site-content">
             <div class="main-row">
                 <div class="main-container">
@@ -45,20 +44,42 @@
                 </div>
             </div>
         </main>
-<!-- COMING SOON SKILLS SECTION
-        <section class="skills-section">
-            <div class="main-row">
-                <div class="main-container">
-                    <h1 class="main-container__header">My Skills</h1>
-                    <hr>
-                    
-                </div>
+           <div class="social-sidebar">
+                <ul class="social-sidebar__list">
+                    <li>
+                        <a href="https://www.facebook.com" target="blank">
+                            <svg id="facebook">
+                                <use xlink:href="assets/fonts/sprites.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" target="blank">
+                            <svg id="twitter">
+                                <use xlink:href="assets/fonts/sprites.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.pinterest.com" target="blank">
+                            <svg id="pintrest">
+                                <use xlink:href="assets/fonts/sprites.svg#icon-pinterest"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="blank">
+                            <svg id="instagram">
+                                <use xlink:href="assets/fonts/sprites.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </section>
--->
+        </div><!--End of Main Body container-->
         <footer class="footer">
                     <span>&copy; Copyright</span>
         </footer>
-     </div><!--End of Main container-->
+    </article>
   </body>
 </html>
