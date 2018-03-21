@@ -317,11 +317,6 @@ img.info-container__img {
 }
 
 /*-----------Social Sidebar------------*/
-.social-icon__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
 
 .social-sidebar {
     position: fixed;
@@ -333,22 +328,43 @@ img.info-container__img {
 }
 
 .social-sidebar > .social-sidebar__list svg {
-    height: 3rem;
-    width: 3rem;
-    margin: .25rem;
+    height: 2rem;
+    width: 2rem;
     fill: #ffffff;
+    position: relative;
+    left: 5px;
+    padding: 0;
+    margin: .25rem;
+    padding-right: .25rem;
 }
 
-#facebook:hover {
-    fill: #3b5998;
+#github{
+    margin-top: 1rem;
 }
 
-#twitter:hover {
-    fill: #1da1f2;
+#stackoverflow{
+    position: relative;
+    bottom: 10px;
 }
 
-#pintrest:hover {
+#stackoverflow:hover{
+    fill: #F48024;
+}
+
+#linkedin:hover {
+    fill: #0077B5;
+}
+
+#github:hover {
+    fill: #000000;
+}
+
+#emailenv:hover {
     fill: #bd081b;
+}
+
+#phone:hover{
+    fill: green;
 }
 
 /*-------Skills Section -----------*/
